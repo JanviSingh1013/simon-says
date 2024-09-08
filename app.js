@@ -23,7 +23,7 @@ function levelUp(){
   let randomcolor = colorArray[randomIndx];
   let randmBtn = document.querySelector(`.${randomcolor}`);
   gamesqnc.push(randomcolor);
-  console.log(gamesqnc);
+  // console.log(gamesqnc);
   btnflash(randmBtn);
 }
 
